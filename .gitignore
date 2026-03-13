@@ -1,0 +1,88 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.Thumbs.db
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ/Android Studio related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Android related
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/app/src/main/java/io/flutter/plugins/
+
+# iOS related
+**/ios/.Flutter/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Podfile.lock
+
+# Build outputs
+*.apk
+*.aab
+*.ipa
+*.app
+*.app.framework
+*.app.framework.dSYM.zip
+*.app.dSYM.zip
+
+# Local database files (temporary/emulator only - real DB lives in emulator)
+*.db
+*.sqlite
+*.sqlite3
+
+# Linux desktop
+**/linux/.cmake/
+**/linux/CMakeLists.txt.user
+**/linux/flutter/ephemeral/
+
+# macOS desktop
+**/macos/Flutter/Flutter-Debug.xcframework/
+**/macos/Flutter/Flutter-Release.xcframework/
+**/macos/.flutter-plugins
+**/macos/.flutter-plugins-dependencies
+**/macos/Pods/
+**/macos/Podfile.lock
+
+# Windows desktop
+**/windows/flutter/ephemeral/
+**/windows/.cmake/
+**/windows/CMakeLists.txt.user
+
+# Web
+**/web/.flutter-plugins
+**/web/manifest.json
